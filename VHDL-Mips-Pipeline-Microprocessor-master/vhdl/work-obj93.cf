@@ -1,0 +1,52 @@
+v 4
+file . "controller.vhd" "d32c414da1763b46cc0e5fbde583b16f1e3fd4e7" "20210204023919.299":
+  entity controller at 1( 0) + 0 on 73;
+  architecture behavior of controller at 17( 482) + 0 on 74;
+file . "maindecoder.vhd" "b60182a4aa7ca83ad3eb0e7a8c8615cce15ba139" "20210204023919.280":
+  entity maindecoder at 1( 0) + 0 on 69;
+  architecture behave of maindecoder at 18( 464) + 0 on 70;
+file . "rf.vhd" "a367cba4d1cd82c3c90ca0d716b21a020c43fe7d" "20210204023919.270":
+  entity rf at 1( 0) + 0 on 65;
+  architecture rtl of rf at 18( 444) + 0 on 66;
+file . "aludecoder.vhd" "79f69b9e96a05c16508c291b1fe6c0f4fb833b26" "20210204023919.258":
+  entity aludecoder at 1( 0) + 0 on 61;
+  architecture behave of aludecoder at 12( 261) + 0 on 62;
+file . "sl2.vhd" "bb194b16e801d01b0ebc8aa8c568afb171dae50e" "20210204023919.245":
+  entity sl2 at 1( 0) + 0 on 57;
+  architecture behave of sl2 at 9( 166) + 0 on 58;
+file . "regaux3.vhd" "0108fd69c7885ae19d81099d4524dcb2ee0c472e" "20210204023919.235":
+  entity regaux3 at 1( 0) + 0 on 53;
+  architecture behave of regaux3 at 29( 1149) + 0 on 54;
+file . "regaux1.vhd" "5b84e4831ea135bd89b7ae01f2866193c95cf37c" "20210204023919.224":
+  entity regaux1 at 1( 0) + 0 on 49;
+  architecture behave of regaux1 at 15( 422) + 0 on 50;
+file . "adder.vhd" "e621b3e6e7b5d34003c6f990a36f2c00d2ca2af1" "20210204030349.796":
+  entity adder at 1( 0) + 0 on 105;
+  architecture behave of adder at 11( 235) + 0 on 106;
+file . "tb_mips.vhd" "934cadf0990e305050a098c934b6432b74c81e3a" "20210207024105.710":
+  entity tb_mips at 1( 0) + 0 on 129;
+  architecture behaviour of tb_mips at 12( 185) + 0 on 130;
+file . "mux.vhd" "c20d6e485287215b6ca14eaf866500743d3dfce2" "20210204023919.219":
+  entity mux at 1( 0) + 0 on 47;
+  architecture behave of mux at 11( 237) + 0 on 48;
+file . "regaux2.vhd" "823fb91f8de0fe32230c5055fb7293df7be7e7fe" "20210204023919.230":
+  entity regaux2 at 1( 0) + 0 on 51;
+  architecture behave of regaux2 at 37( 1602) + 0 on 52;
+file . "regaux4.vhd" "15e962661f891c7f781793583ac9d787859cc1f9" "20210204023919.240":
+  entity regaux4 at 1( 0) + 0 on 55;
+  architecture behave of regaux4 at 21( 718) + 0 on 56;
+file . "alu.vhd" "21b975515e997ae50e9f21f62cba2ecbb8ea0661" "20210204025904.908":
+  entity alu at 1( 0) + 0 on 91;
+  architecture rtl of alu at 17( 484) + 0 on 92;
+file . "genericreg.vhd" "dd9c4e954e6895480b7ad549c436ac41d7bbb6be" "20210204023919.263":
+  entity genericreg at 1( 0) + 0 on 63;
+  architecture behave of genericreg at 13( 252) + 0 on 64;
+file . "signextension.vhd" "711e7546777b156d0c7c8ae855836595ac171fc1" "20210204023919.275":
+  entity signextension at 1( 0) + 0 on 67;
+  architecture behave of signextension at 9( 176) + 0 on 68;
+file . "datapath.vhd" "50a00977ecf4f7afd3ff2ff6d03d3b5248becfbf" "20210204040107.418":
+  entity datapath at 1( 0) + 0 on 125;
+  architecture behaviour of datapath at 28( 802) + 0 on 126;
+file . "mips.vhd" "dc75d76501357be2ac7173bfa55fc715119598a5" "20210204023919.307":
+  entity mips at 1( 0) + 0 on 75;
+  architecture struct of mips at 18( 562) + 0 on 76;

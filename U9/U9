@@ -1,0 +1,53 @@
+9.1.1
+a)
+Der Registerbaustein gliedert sich wie folgt:
+- Als Eingangsport haben wir einen Takt (clk), eine Schreiberlaubnis (we3), die Namen der zu lesenden Register (a1, a2), die Adresse des zu schreibenden Registers (a3) und die zu schreibenden Daten (wd3). 
+- Als Ausgangsport sind die Daten der gelesenen Register (rd1,rd2).
+
+Zum Schreiben in dem Registerersatz:
+-Wir prüfen zuerst, ob das Signal(clk) von einem niedrigen Wert ('0' oder 'L') zu einem hohen Wert ('1' oder 'H') wechselt.
+- Dann prüfen wir, ob der Registrar schreiben darf.
+- Und schließlich werden die Daten in den Speicher der Registry geschrieben.
+
+Zum Lesen in dem Registerersatz:
+Prüfen wir für jede Adresse, ob das zu lesende Register Daten enthält. Wenn dies der Fall ist, lesen wir die Daten, ansonsten geben wir "00000000" als gelesene Daten zurück.
+
+c)Zuerst prüfen wir den Wert des Reset-Eingangsports, wenn er gleich 1 ist, wird q zurückgesetzt. Beachten Sie, dass die Anzahl der Bits von q generisch ist. Falls das Reset-Signal 1 ist, prüfen wir, ob sich der Wert von clk von 0 auf 1 geändert hat. In diesem Fall nimmt q den Inhalt von d an.q hat die Adresse der nächsten auszuführenden Anweisung aus dem Speicher.
+
+9.1.3
+a)
+signext gibt "ffffffffffffffffffffffffffffff" verkettet mit dem Inhalt von a zurück, wenn der Wert in den 16 niederwertigsten Bits der Instruktion gleich 1 ist, andernfalls gibt signxt "000000000000000000000000" verkettet mit dem Inhalt von a zurück.
+
+b)Der Baustein alu erhält zwei Signale (a und b) und ein Alucontrol-Signal, das den Rechenvorgang bestimmt.
+Zum Beispiel entspricht alucontrol="000" wird die Berechnung zwischen a und b  "AND" sein. alucontrol="010" entspricht "+".
+Damit entspricht das Ergebnis der Operation nach alucontrol zwischen a und b.
+Für den Fall, dass alucontrol="111" ist, wird ein Vergleich zwischen a und b durchgeführt. Für a< b result wird x"00000001" als Ergebnis gespeichert. Ansonsten wird result x"00000000" als Ergebnis gespeichert.
+
+Schließlich speichern wir 1 in zero, wenn das Ergebnis der Operation zwischen a und b x"00000000" ist. Ansonsten erhält zero den Wert '0'.
+
+
+9.1.8
+b)
+jump auswahlsignal zwischen pcnextbr und pcjump
+regwrite
+regdst auswahlsignal zwischen a1 und a2
+alusrc auswahlsignal zwischen writedata und signimm
+alucontrol definiert die Operation zwischen a und b
+branch und zero gibt das Steuersignal pcsrc als ausgang signal
+pcsrc auswahlsignal zwischen pcbranch und pcplus4
+memwrite aktiviert das Lagern von writeDate in aluout Register
+memtoreg auswahlsignal zwischen aluout und readdata
+
+
+9.2.2
+a)
+aludec erhält zwei Eingangsports func und aluop. Im Fall aluop enthält:
+- "00" geben wir als Wert "010" zurück, was die Addition für (lw/sw/addi) ist.
+- "01" geben wir als Wert "010" zurück, der die Sustraktion darstellt
+-in dem Fall, dass der Inhalt der Funktion die Operation definiert, die an alucontrol zurückgegeben werden soll.
+b)
+In diesem Fall muss der Inhalt des op Eingangsports dekodiert werden.
+Jedem op entspricht ein bit_Vektor von Steuerelementen. Schließlich bestimmt jedes Bit den Wert der Steuersignale.
+c)
+Eine der Schlüsselkomponenten des Mikroprozessors ist der Controller, der eine binär kodierte Anweisung empfängt
+Er empfängt einen binär codierten Befehl und dekodiert ihn, um entsprechende Steuersignale zu erzeugen, die die Bewegung von Daten durch den Prozessor steuern

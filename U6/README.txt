@@ -1,0 +1,1 @@
+Leider muss ich Ihnen mitteilen, dass mein Gruppenpartner zum zweiten Mal an der Aufgabelösung nicht mitgemacht hat. Daher enthält der Name des Archivs nur meinen Namen.

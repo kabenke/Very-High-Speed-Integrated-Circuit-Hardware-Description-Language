@@ -1,0 +1,67 @@
+$date
+  Sun Feb  7 03:38:32 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module std_logic_arith $end
+$upscope $end
+$scope module std_logic_unsigned $end
+$upscope $end
+$scope module tb_mips $end
+$var reg 1 ! erro $end
+$var reg 32 " writedata[31:0] $end
+$var reg 32 # aluout[31:0] $end
+$var reg 32 $ pc[31:0] $end
+$var reg 32 % data[31:0] $end
+$var reg 32 & instr[31:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( reset $end
+$var reg 1 ) memwrite $end
+$scope module mips0 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU "
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU #
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU $
+bUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU %
+b00100000000100000000000000000001 &
+1'
+U(
+U)
+#10000000
+0'
+#20000000
+1'
+#30000000
+0'
+#40000000
+1'
+#50000000
+0'
+#60000000
+1'
+#70000000
+0'
+#80000000
+1'
+#90000000
+0'
+#100000000
+1'
+#110000000
+0'
+#120000000
+1'
+#130000000
+0'

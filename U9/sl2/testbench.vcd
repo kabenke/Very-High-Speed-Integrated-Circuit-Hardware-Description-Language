@@ -1,0 +1,28 @@
+$date
+  Sat Jan 30 02:26:50 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module sl2_tb $end
+$var reg 32 ! a[31:0] $end
+$var reg 32 " y[31:0] $end
+$scope module dut $end
+$var reg 32 # a[31:0] $end
+$var reg 32 $ y[31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00010000000000000001000000010000 !
+b01000000000000000100000001000000 "
+b00010000000000000001000000010000 #
+b01000000000000000100000001000000 $
+#20000000

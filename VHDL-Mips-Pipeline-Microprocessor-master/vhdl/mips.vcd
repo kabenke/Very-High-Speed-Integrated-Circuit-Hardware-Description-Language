@@ -1,0 +1,153 @@
+$date
+  Thu Feb  4 03:41:31 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module std_logic_arith $end
+$upscope $end
+$scope module std_logic_unsigned $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_mips $end
+$var reg 1 ! erro $end
+$var reg 32 " writedata[31:0] $end
+$var reg 32 # aluout[31:0] $end
+$var reg 32 $ pc[31:0] $end
+$var reg 32 % data[31:0] $end
+$var reg 32 & instr[31:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( reset $end
+$var reg 1 ) memwrite $end
+$scope module mips0 $end
+$var reg 32 * instruction[31:0] $end
+$var reg 32 + data[31:0] $end
+$var reg 1 , clk $end
+$var reg 1 - reset $end
+$var reg 32 . pcf[31:0] $end
+$var reg 32 / aluoutm[31:0] $end
+$var reg 32 0 writedatam[31:0] $end
+$var reg 1 1 memwritem $end
+$var reg 1 2 mymemtoreg $end
+$var reg 1 3 myalusrc $end
+$var reg 1 4 myregdst $end
+$var reg 1 5 myregwrite $end
+$var reg 1 6 myjump $end
+$var reg 1 7 mypcsrc $end
+$var reg 1 8 myzero $end
+$var reg 3 9 myalucontrol[2:0] $end
+$scope module cont $end
+$var reg 6 : op[5:0] $end
+$var reg 6 ; funct[5:0] $end
+$var reg 1 < zero $end
+$var reg 1 = memtoreg $end
+$var reg 1 > memwrite $end
+$var reg 1 ? pcsrc $end
+$var reg 1 @ alusrc $end
+$var reg 1 A regdst $end
+$var reg 1 B regwrite $end
+$var reg 1 C jump $end
+$var reg 3 D alucontrol[2:0] $end
+$var reg 2 E myaluop[1:0] $end
+$var reg 1 F mybranch $end
+$scope module maindecoder0 $end
+$var reg 6 G op[5:0] $end
+$var reg 1 H memtoreg $end
+$var reg 1 I memwrite $end
+$var reg 1 J branch $end
+$var reg 1 K alusrc $end
+$var reg 1 L regdst $end
+$var reg 1 M regwrite $end
+$var reg 1 N jump $end
+$var reg 2 O aluop[1:0] $end
+$var reg 9 P control_vector[8:0] $end
+$upscope $end
+$scope module aludecoder0 $end
+$var reg 6 Q funct[5:0] $end
+$var reg 2 R aluop[1:0] $end
+$var reg 3 S alucontrol[2:0] $end
+$upscope $end
+$upscope $end
+$scope module dp $end
+$var reg 1 T clk $end
+$var reg 1 U reset $end
+$var reg 1 V memtoreg $end
+$var reg 1 W pcsrc $end
+$var reg 1 X alusrc $end
+$var reg 1 Y regdst $end
+$var reg 1 Z regwrite $end
+$var reg 1 [ jump $end
+$var reg 3 \ alucontrol[2:0] $end
+$var reg 32 ] instruction[31:0] $end
+$var reg 32 ^ readdata[31:0] $end
+$var reg 32 _ pc[31:0] $end
+$var reg 32 ` aluout[31:0] $end
+$var reg 32 a writedata[31:0] $end
+$var reg 1 b zero $end
+$var reg 5 c writereg[4:0] $end
+$var reg 5 d writerege[4:0] $end
+$var reg 5 e writeregm[4:0] $end
+$var reg 5 f writeregw[4:0] $end
+$var reg 32 g instructiond[31:0] $end
+$var reg 32 h instructione[31:0] $end
+$var reg 32 i readdataw[31:0] $end
+$var reg 32 j writedatae[31:0] $end
+$var reg 32 k writedm[31:0] $end
+$var reg 1 l memtorege $end
+$var reg 1 m memtoregm $end
+$var reg 1 n memtoregw $end
+$var reg 1 o alusrce $end
+$var reg 1 p memwrite $end
+$var reg 1 q zeroe $end
+$var reg 1 r regwritee $end
+$var reg 1 s regwritem $end
+$var reg 1 t regwritew $end
+$var reg 1 u regdste $end
+$var reg 3 v alucontrole[2:0] $end
+$var reg 32 w pcjump[31:0] $end
+$var reg 32 x pcnext[31:0] $end
+$var reg 32 y pcnextbr[31:0] $end
+$var reg 32 z pcbranche[31:0] $end
+$var reg 32 { pcbranchm[31:0] $end
+$var reg 32 | sigimne[31:0] $end
+$var reg 32 } srcae[31:0] $end
+$var reg 32 !" pcplus4[31:0] $end
+$var reg 32 "" pcbranch[31:0] $end
+$var reg 32 #" sigimn[31:0] $end
+$var reg 32 $" aluoutm[31:0] $end
+$var reg 32 %" aluoutw[31:0] $end
+$var reg 32 &" pcplus4d[31:0] $end
+$var reg 32 '" pcplus4e[31:0] $end
+$var reg 32 (" signimsh[31:0] $end
+$var reg 32 )" srca[31:0] $end
+$var reg 32 *" srcb[31:0] $end
+$var reg 32 +" result[31:0] $end
+$var reg 32 ," temp[31:0] $end
+$scope module pcreg $end
+$var reg 32 -" d[31:0] $end
+$var reg 1 ." clk $end
+$var reg 32 /" q[31:0] $end
+$upscope $end
+$scope module pcadder $end
+$var reg 32 0" a[31:0] $end
+$var reg 32 1" b[31:0] $end
+$var reg 32 2" y[31:0] $end
+$upscope $end
+$scope module pcbrmux $end
+$var reg 32 3" d0[31:0] $end
+$var reg 32 4" d1[31:0] $end
+$var reg 1 5" s $end
+$var reg 32 6" y[31:0] $end
+$upscope $end
+$scope module pcmux $end
+$var reg 32 7" d0[31:0] $end
+$var reg 32 8" d1[31:0] $end
+$
