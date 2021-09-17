@@ -1,0 +1,59 @@
+$date
+  Thu Dec  3 22:47:07 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module rca $end
+$var reg 8 ! a[7:0] $end
+$var reg 8 " b[7:0] $end
+$var reg 7 # cin[6:0] $end
+$var reg 8 $ sum[7:0] $end
+$var reg 1 % wire_1 $end
+$var reg 1 & wire_2 $end
+$var reg 1 ' wire_3 $end
+$var reg 1 ( wire_4 $end
+$var reg 1 ) wire_5 $end
+$var reg 1 * wire_6 $end
+$var reg 1 + wire_7 $end
+$var reg 1 , wire_8 $end
+$var reg 1 - c $end
+$scope module add0 $end
+$upscope $end
+$scope module add1 $end
+$upscope $end
+$scope module add2 $end
+$upscope $end
+$scope module add3 $end
+$upscope $end
+$scope module add4 $end
+$upscope $end
+$scope module add5 $end
+$upscope $end
+$scope module add6 $end
+$upscope $end
+$scope module add7 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUUUU !
+bUUUUUUUU "
+bUUUUUUU #
+bUUUUUUUU $
+U%
+U&
+U'
+U(
+U)
+U*
+U+
+U,
+U-

@@ -1,0 +1,4 @@
+v 4
+file . "signal_levels.vhdl" "1a33f1c5d95b25dbe6b5ffb2988d56d068ce0ded" "20201125015012.690":
+  entity signals_tb at 1( 0) + 0 on 21;
+  architecture test of signals_tb at 7( 82) + 0 on 22;

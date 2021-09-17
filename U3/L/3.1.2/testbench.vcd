@@ -1,0 +1,91 @@
+$date
+  Thu Dec  3 21:26:28 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module fa_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # cin $end
+$var reg 1 $ cout $end
+$var reg 1 % sum $end
+$scope module full_adder $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 1 ( cin $end
+$var reg 1 ) cout $end
+$var reg 1 * sum $end
+$var reg 1 + wire_1 $end
+$var reg 1 , wire_2 $end
+$var reg 1 - wire_3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+U+
+U,
+U-
+#10000000
+1#
+1%
+1(
+1*
+#20000000
+1"
+0#
+1'
+0(
+#30000000
+1#
+1$
+0%
+1(
+1)
+0*
+#40000000
+1!
+0"
+0#
+0$
+1%
+1&
+0'
+0(
+0)
+1*
+#50000000
+1#
+1$
+0%
+1(
+1)
+0*
+#60000000
+1"
+0#
+1'
+0(
+#70000000
+1#
+1%
+1(
+1*
+#80000000
